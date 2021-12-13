@@ -1,0 +1,49 @@
+
+/* Detalles con Css */
+
+html {
+    box-sizing: border-box;
+}
+
+  *, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body {
+    background-color: #71532d;
+}
+
+@media (min-width: 769px) {
+    .carousel-item {
+        height: 600px;
+    }
+    
+    .carousel-item img {
+        object-fit: cover;
+    }
+}
+
+
+.logo {
+    width: 50px;
+}
+
+.imgBody {
+    object-fit: cover;
+}
+
+footer {
+    height: 110px;
+}
+
+
+a {
+    text-decoration: none;
+}
+
+@media (min-width: 769px) {
+    .imgNosotros {
+        height: 500px;
+        object-fit: cover;
+    }
+}
